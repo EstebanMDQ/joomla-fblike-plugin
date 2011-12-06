@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>fbLikes</name>
+	<author>Esteban Soler</author>
+	<creationDate>2011-01-08</creationDate>
+	<copyright>2007-2011 Informal Thinkers. All rights reserved</copyright>
+	<license>GNU/GPL http://www.gnu.org/licenses/gpl.html</license>
+	<authorEmail>esteban@informalthinkers.com</authorEmail>
+	<authorUrl>www.informalthinkers.com</authorUrl>
+	<version>1.0</version>
+	<description>plugin to add a fblike to any page</description>
+	<files>
+		<filename plugin="fblikes">fblikes.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="style" type="list" default="standard" label="Style">
+			<option value="standard">Standard</option>
+			<option value="button_count">Button count</option>
+		</param>
+		<param name="faces" type="list" default="true" label="Show facebook profile faces">
+			<option value="true">Yes</option>
+			<option value="false">No</option>
+		</param>
+		<param name="verb" type="list" default="like" label="Verb to use">
+			<option value="like">Like</option>
+			<option value="recommend">Recommend</option>
+		</param>
+		<param name="font" type="list" default="arial" label="Verb to use">
+			<option value="arial">Arial</option>
+			<option value="lucida grande">Lucida Grande</option>
+			<option value="segoe ui">Segoe UI</option>
+			<option value="tahoma">Tahoma</option>
+			<option value="trebuchet ms">Trebuchet MS</option>
+			<option value="verdana">Verdana</option>
+		</param>
+		<param name="scheme" type="list" default="like" label="Color Scheme">
+			<option value="light">Light</option>
+			<option value="dark">Dark</option>
+		</param>
+		<param name="width" type="text" default="320" label="Width" />
+  		<param name="excludedComponents" type="textarea" default="" label="Excluded Components" description="list of components to exclude. one component by line, you can add the specyfic views to exclude."/>
+  		<param name="containerName" type="text" default="fbLikeContainer" description="id for the container div."  />
+	</params>
+</install>
