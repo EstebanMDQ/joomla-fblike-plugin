@@ -1,5 +1,5 @@
 #FB Like Plugin
-##by InformalThinkers
+####by InformalThinkers (www.informalthinkers.com)
 
 
 
@@ -15,3 +15,8 @@ value) and also in case you need to exclude just an specific view
 
 
 ## USAGE
+
+check this post about it 
+
+http://informalthinkers.com/joomla/using-the-fblike-plugin/
+
