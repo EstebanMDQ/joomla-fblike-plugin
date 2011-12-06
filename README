@@ -1,0 +1,17 @@
+#FB Like Plugin
+##by InformalThinkers
+
+
+
+Did you ever wanted to add the famous Facebook like button to anything but contents? 
+most joomla plugins that implement this feature are for contents only. and i needed 
+them everywhere!
+
+This is a system plugin, and is meant to appear on every page, i made an exception 
+system to avoid showing the button on specific components and views. In the plugin’s 
+configuration you can add one component name per line (it should be the option GET 
+value) and also in case you need to exclude just an specific view
+
+
+
+## USAGE
