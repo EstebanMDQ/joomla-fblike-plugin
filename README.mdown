@@ -20,3 +20,11 @@ check this post about it
 
 http://informalthinkers.com/joomla/using-the-fblike-plugin/
 
+## Exclude Components and Views
+
+you can exclude components and views in the plugin parameters with the following format. 
+
+    com_component1
+    com_component2[view_name]
+
+that would exclude all the views in component1 and just view_name in component2, be careful to use the url parameters as view names.
